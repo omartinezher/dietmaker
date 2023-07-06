@@ -9,6 +9,7 @@
 
     <div class="columns-container" *ngIf ="mostrar == true">
       <div *ngFor="let ingredienteCompra of ingredientesTotales; let i = index" class="column" [style.flex-basis.%]="100 / numColumns">
+        <h3>{{ semanaArray[i] }}</h3>
         <p *ngIf="ingredienteCompra.unitario ; else ingredienteCantidad">{{ ingredienteCompra.nombreIngrediente }} - {{ ingredienteCompra.cantidad }} unidad(es)</p>
           <ng-template #ingredienteCantidad>{{ ingredienteCompra.nombreIngrediente }} - {{ ingredienteCompra.cantidad }} gramos</ng-template>
       </div>
