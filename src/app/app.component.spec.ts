@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'dietmaker'`, () => {
+  it(`should have as title 'Dietmaker'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('dietmaker');
+    expect(app.title).toEqual('Dietmaker');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('dietmaker app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Dietmaker app is running!');
   });
 });

@@ -1,0 +1,37 @@
+.content {
+  width: 100%;
+}
+
+.left {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 57px;
+  float: left;
+  position: relative;
+  width: 45%;
+  border: steelblue solid 1px;
+  height: auto;
+}
+
+.right {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  width: 45%;
+  border: steelblue solid 1px;
+  height: auto;
+}
+
+.columns-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: steelblue solid 1px;
+}
