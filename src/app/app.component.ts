@@ -125,14 +125,13 @@ export class AppComponent {
       } while (this.comidasArray.length + this.cenasArray.length != 14);
 
       this.ingredientesTotales.length = 0;
-      console.log(this.ingredientesTotales);
+      this.countIngredients();
 
     }
   }
 
   countIngredients() {
     const arrayCompletoComidas = [...this.comidasArray, ...this.cenasArray];
-    console.log(arrayCompletoComidas);
 
     if (this.ingredientesTotales.length === 0) {
       for (let i = 0; i < arrayCompletoComidas.length; i++) {
@@ -156,6 +155,7 @@ export class AppComponent {
         this.ingredientesTotales.sort((a, b) => a.nombreIngrediente.localeCompare(b.nombreIngrediente));
       }
     }
+    this.buscarImagenes();
   }
 
 
@@ -165,7 +165,9 @@ export class AppComponent {
   }
 
 
-  numColumns = 10; // Número de columnas que deseas mostrar
+
+
+  numColumns = 7; // Número de columnas que deseas mostrar
 
   calculateColumns(): number {
     const screenWidth = window.innerWidth; // Ancho de la ventana del navegador
@@ -175,5 +177,33 @@ export class AppComponent {
 
     return numColumns > 0 ? numColumns : 1; // Asegurarse de que haya al menos una columna
   }
+
+
+  urlsImagenes: string[] = [];
+
+  buscarImagenes() {
+    for (let i = 0; i < this.ingredientesTotales.length; i++) {
+
+      const ingredienteCompra = this.ingredientesTotales[i];
+      const apiKey = '38154666-7565d61a70a128b350c90910c';
+      const url = 'https://pixabay.com/api/?key='+apiKey+'&q='+ingredienteCompra.nombreIngrediente.split(" ")[0]+'&image_type=photo&lang=es&per_page=3&category=food';
+      console.log(url);
+      this.http.get(url).subscribe((response: any) => {
+        if (response.hits && response.hits.length > 0) {
+          const firstPageURL = response.hits[0].pageURL;
+          this.urlsImagenes.push(firstPageURL);
+        }
+      });
+    }
+    console.log(this.urlsImagenes);
+  }
+
+  voltearCarta(index: number) {
+    const carta = document.getElementById(`carta-${index}`);
+    if (carta) {
+      carta.classList.toggle('volteada');
+    }
+  }
+
 
 }

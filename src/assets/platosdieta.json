@@ -1042,7 +1042,7 @@
                 },
                 {
                     "nombreIngrediente" : "Pimentón",
-                    "cantidad" : "Al gusto",
+                    "cantidad" : "1",
                     "unitario" : false
                 },
                 {
@@ -1466,7 +1466,7 @@
                 },
                 {
                     "nombreIngrediente" : "Pimentón",
-                    "cantidad" : "Al gusto",
+                    "cantidad" : "1",
                     "unitario" : false
                 }
             ],

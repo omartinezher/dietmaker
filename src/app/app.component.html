@@ -3,44 +3,53 @@
   <body>
     <h1>Dieta de la semana</h1>
     <button type="submit" id="makeadiet" class="btn btn-primary" (click)="makeAdiet()">Menu aleatorio</button>
-    <button type="submit" id="getIngredients" class="btn btn-primary" *ngIf ="mostrar == true" (click)="countIngredients()">Cuenta ingredientes</button>
 
-
-
-    <div class="columns-container" *ngIf ="mostrar == true">
-      <div *ngFor="let ingredienteCompra of ingredientesTotales; let i = index" class="column" [style.flex-basis.%]="100 / numColumns">
-        <h3>{{ semanaArray[i] }}</h3>
-        <p *ngIf="ingredienteCompra.unitario ; else ingredienteCantidad">{{ ingredienteCompra.nombreIngrediente }} - {{ ingredienteCompra.cantidad }} unidad(es)</p>
-          <ng-template #ingredienteCantidad>{{ ingredienteCompra.nombreIngrediente }} - {{ ingredienteCompra.cantidad }} gramos</ng-template>
+    <div class="columns-container" *ngIf="mostrar == true">
+      <div *ngFor="let ingredienteCompra of ingredientesTotales; let i = index" class="myCard" [style.flex-basis.%]="100 / numColumns">
+          <div class="innerCard">
+            <div class="frontSide">
+              <p>
+                <span>{{ ingredienteCompra.nombreIngrediente }} - {{ ingredienteCompra.cantidad }} gramos/unidades</span>
+              </p>
+            </div>
+            <div class="backSide">
+              <img alt="{{ ingredienteCompra.nombreIngrediente }}" [src]="urlsImagenes[i]">
+            </div>
+          </div>
       </div>
     </div>
+
 
     <div class="content">
         <div id="menu_comida" *ngIf ="mostrar == true" class="left">
           <h2>Comidas</h2>
           <ul>
-            <li *ngFor="let comida of comidasArray">
-                <h3>{{ comida.nombrePlato }}</h3>
-                <ul>
-                  <li *ngFor="let ingrediente of comida.ingredientes">
-                    <p *ngIf="ingrediente.unitario ; else comidaCantidad">{{ ingrediente.nombreIngrediente }} - {{ ingrediente.cantidad }} unidad(es)</p>
-                    <ng-template #comidaCantidad>{{ ingrediente.nombreIngrediente }} - {{ ingrediente.cantidad }} gramos</ng-template>
-                  </li>
-                </ul>
+            <li *ngFor="let comida of comidasArray; let i = index" class="card">
+              <h3>{{ semanaArray[i] }}</h3>
+              <h4>{{ comida.nombrePlato }}</h4>
+              <ul>
+                <li *ngFor="let ingrediente of comida.ingredientes">
+                  <p *ngIf="ingrediente.unitario ; else comidaCantidad">{{ ingrediente.nombreIngrediente }} - {{ ingrediente.cantidad }} unidad(es)</p>
+                  <ng-template #comidaCantidad><p>{{ ingrediente.nombreIngrediente }} - {{ ingrediente.cantidad }} gramos</p></ng-template>
+                </li>
+              </ul>
+            <br>
             </li>
           </ul>
       </div>
       <div id="menu_cena" *ngIf ="mostrar == true" class="right">
         <h2>Cenas</h2>
         <ul>
-          <li *ngFor="let cena of cenasArray">
-              <h3>{{ cena.nombrePlato }}</h3>
+          <li *ngFor="let cena of cenasArray; let i = index" class="card">
+            <h3>{{ semanaArray[i] }}</h3>
+              <h4>{{ cena.nombrePlato }}</h4>
               <ul>
                 <li *ngFor="let ingrediente of cena.ingredientes">
                   <p *ngIf="ingrediente.unitario ; else cenaCantidad">{{ ingrediente.nombreIngrediente }} - {{ ingrediente.cantidad }} unidades</p>
                   <ng-template #cenaCantidad>{{ ingrediente.nombreIngrediente }} - {{ ingrediente.cantidad }} gramos</ng-template>
                 </li>
               </ul>
+              <br>
           </li>
         </ul>
       </div>
