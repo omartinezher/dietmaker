@@ -1,0 +1,1614 @@
+{
+    "arrayPlatos":[
+        {
+            "idPlato" : 1,
+            "nombrePlato":"Macarrones con tomate y atún",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Tomate frito",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Macarrones",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Atún natural en conserva",
+                    "cantidad" : "220",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+
+        },
+        {
+            "idPlato" : 2,
+            "nombrePlato":"Ensalada de pollo plancha con aguacate y tomates cherry (Con salsa yogur)",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Rúcula",
+                    "cantidad" : "100",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 3,
+            "nombrePlato":"Pavo con judías verdes y puré de patata",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pavo",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Patatas",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Judía Verde",
+                    "cantidad" : "400",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 4,
+            "nombrePlato":"Ensalada de rúcula, atún y queso fresco",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Rúcula",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Atún enlatado en agua",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Huevo duro",
+                    "cantidad" : "2",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Queso fresco tipo burgos 0%",
+                    "cantidad" : "4",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 5,
+            "nombrePlato":"Salteado de ternera en tiras con pimiento verde",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne magra de ternera",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "360",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 6,
+            "nombrePlato":"Dorada a la plancha con brócoli",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Dorada",
+                    "cantidad" : "740",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Brócoli",
+                    "cantidad" : "300",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 7,
+            "nombrePlato":"Guisantes con gambitas y huevo escalfado",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Guisante congelado",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Gamba o camarón",
+                    "cantidad" : "240",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "10",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 8,
+            "nombrePlato":"Hamburguesa de ternera con brócoli salteado",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "360",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Brócoli",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "20",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 9,
+            "nombrePlato":"Salteado de salmón con calabacín y pimientos",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Salmón",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "80",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "160",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 10,
+            "nombrePlato":"Fajitas de pollo y verduras con salsa de queso",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Queso de untar ligero",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Fajita integral",
+                    "cantidad" : "4",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 11,
+            "nombrePlato":"Arroz caldoso con gambas, calamar y chirlas",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Arroz blanco crudo",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Gamba o camarón",
+                    "cantidad" : "80",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calamar y similares",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "6",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Laurel",
+                    "cantidad" : "1",
+                    "unitario" : true
+
+                },
+                {
+                    "nombreIngrediente" : "Pimentón",
+                    "cantidad" : "1",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Caldo de pescado",
+                    "cantidad" : "480",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Vino blanco",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Almeja, chirla, berberecho",
+                    "cantidad" : "240",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 12,
+            "nombrePlato":"Alitas de pollo con salsa de yogur casera (al horno)",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Alitas de pollo",
+                    "cantidad" : "6",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 13,
+            "nombrePlato":"Pollo al horno con patatas, cebolla y tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Contramuslo de pollo",
+                    "cantidad" : "680",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Patatas",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "300",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 14,
+            "nombrePlato":"Sopita de sobre",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Sopita de sobre",
+                    "cantidad" : "1",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 15,
+            "nombrePlato":"Pasta con mozzarella y tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Mozzarella fresca light",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate cherry",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate frito",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pasta",
+                    "cantidad" : "160",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 16,
+            "nombrePlato":"Carne picada con pimientos y tomates cherry",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "10",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 17,
+            "nombrePlato":"Merluza a la plancha con pisto",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Merluza",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "150",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 18,
+            "nombrePlato":"Tortilla francesa con queso fresco",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "4",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Queso fresco tipo burgos 0%",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 19,
+            "nombrePlato":"Garbanzos con queso y tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Garbanzos cocidos",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Queso fresco tipo burgos 0%",
+                    "cantidad" : "2",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Almendra sin cáscara",
+                    "cantidad" : "30",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 20,
+            "nombrePlato":"Salmón a la plancha con judías verdes",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Salmón",
+                    "cantidad" : "340",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Judía Verde",
+                    "cantidad" : "250",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 21,
+            "nombrePlato":"Pollo con ensalada de patatas",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Patatas",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate cherry",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate cherry",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Aceituna verde",
+                    "cantidad" : "30",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 22,
+            "nombrePlato":"Merluza a la malagueña",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Merluza",
+                    "cantidad" : "500",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "10",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Avellana sin cáscara",
+                    "cantidad" : "20",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimentón",
+                    "cantidad" : "1",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 23,
+            "nombrePlato":"Bowl de batata y pollo",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Lechuga",
+                    "cantidad" : "80",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Batata",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "200",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 24,
+            "nombrePlato":"Tacos de langostinos",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Langostino",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Fajita integral",
+                    "cantidad" : "4",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Lima",
+                    "cantidad" : "1",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Tomate cherry",
+                    "cantidad" : "200",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 25,
+            "nombrePlato":"Arroz basmati con pollo y verduras al curry",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Arroz basmati crudo",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "240",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Caldo de pollo",
+                    "cantidad" : "340",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "80",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Curry",
+                    "cantidad" : "4",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 26,
+            "nombrePlato":"Hamburguesa de ternera con calabacín salteado",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "360",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "20",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 27,
+            "nombrePlato":"Dorada al horno con patata, cebolla y tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Dorada",
+                    "cantidad" : "600",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Patatas",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "180",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 28,
+            "nombrePlato":"Tostas de salmón con queso fresco",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Salmón ahumado bolsa",
+                    "cantidad" : "1",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Queso fresco light",
+                    "cantidad" : "1",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Queso fresco tipo burgos 0%",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 29,
+            "nombrePlato":"Pollo al curry con almendras y semillas de sésamo",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Curry",
+                    "cantidad" : "2",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Almendra molida",
+                    "cantidad" : "20",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Semillas de sésamo blancas",
+                    "cantidad" : "10",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 30,
+            "nombrePlato":"Pollo a la plancha al limón y queso fresco",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Limón",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Queso fresco tipo burgos 0%",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 31,
+            "nombrePlato":"Garbanzos con langostinos",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Garbanzos cocidos",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Langostino",
+                    "cantidad" : "250",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Vino blanco",
+                    "cantidad" : "80",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 32,
+            "nombrePlato":"Brochetas de carne y champiñones",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Lomo de cerdo",
+                    "cantidad" : "260",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "280",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "10",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Champiñon",
+                    "cantidad" : "200",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 33,
+            "nombrePlato":"Burritos de carne picada y champiñones",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "180",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Champiñon",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "30",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Fajita integral",
+                    "cantidad" : "4",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 34,
+            "nombrePlato":"Pollo al limón",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "680",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "20",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Limón",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Caldo de pollo",
+                    "cantidad" : "300",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 35,
+            "nombrePlato":"Revuelto de jamón serrano y espárragos verdes con tomates cherry",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Espárrago triguero",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Jamón serrano",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate cherry",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 36,
+            "nombrePlato":"Pollo al curry con patatas",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Patatas",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Curry",
+                    "cantidad" : "4",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 37,
+            "nombrePlato":"Huevos revueltos con tomate y bacalao ahumado",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "4",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "360",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Bacalao ahumado",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Limón",
+                    "cantidad" : "30",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 38,
+            "nombrePlato":"Pollo al pimentón en salsa cremosa de tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "360",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "6",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimentón",
+                    "cantidad" : "1",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Yogur griego",
+                    "cantidad" : "100",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 39,
+            "nombrePlato":"Salmón al limón con cebolla caramelizada",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Salmón",
+                    "cantidad" : "340",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "10",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "250",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Limón",
+                    "cantidad" : "50",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 40,
+            "nombrePlato":"Tacos de carne picada",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "180",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate crudo",
+                    "cantidad" : "240",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Fajita integral",
+                    "cantidad" : "4",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 41,
+            "nombrePlato":"Arroz caldoso con pollo",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Arroz blanco crudo",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Caldo vegetal",
+                    "cantidad" : "480",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento verde",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "6",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 42,
+            "nombrePlato":"Hamburguesa de ternera casera completa con huevo, queso y tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "180",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "2",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Queso Harvati Light",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pan blanco",
+                    "cantidad" : "110",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 43,
+            "nombrePlato":"Pizza fit de jamón cocido y champiñón",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Fajita integral",
+                    "cantidad" : "2",
+                    "unitario" : true
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Queso mozzarella para gratinar",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Jamón cocido",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Champiñon",
+                    "cantidad" : "150",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 44,
+            "nombrePlato":"Potaje de garbanzos",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Garbanzos cocidos",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Patatas",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Zanahoria",
+                    "cantidad" : "80",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "4",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 45,
+            "nombrePlato":"Espirales con salsa boloñesa",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Espirales",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate frito",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "140",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 46,
+            "nombrePlato":"Solomillo de pollo a la plancha sobre lecho de verduras",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "240",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimiento rojo",
+                    "cantidad" : "240",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 47,
+            "nombrePlato":"Filete de ternera a la plancha con espárragos verdes",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne magra de ternera",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Espárrago triguero",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "6",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 48,
+            "nombrePlato":"Salteado de pollo, brócoli y champiñones",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Brócoli",
+                    "cantidad" : "400",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Champiñon",
+                    "cantidad" : "100",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 49,
+            "nombrePlato":"Ensalada de alubias rojas con piña asada",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Alubias rojas",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Piña natural",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Queso feta",
+                    "cantidad" : "60",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Lechuga",
+                    "cantidad" : "60",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 50,
+            "nombrePlato":"Macarrones con Berenjenas y mozzarella",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Pasta",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Berenjena",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate frito",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Queso mozzarella para gratinar",
+                    "cantidad" : "80",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "4",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 51,
+            "nombrePlato":"Revuelto de jamón serrano con cebolla y calabacín",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Jamón serrano",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 52,
+            "nombrePlato":"Timbal de lentejas con pollo",
+            "ingredientes":[
+
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "240",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Lentejas cocidas",
+                    "cantidad" : "350",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "20",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pimentón",
+                    "cantidad" : "1",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 53,
+            "nombrePlato":"Calabacines con tomate",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "360",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Tomate triturado natural",
+                    "cantidad" : "300",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Ajo",
+                    "cantidad" : "10",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "100",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Huevo",
+                    "cantidad" : "2",
+                    "unitario" : true
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 54,
+            "nombrePlato":"Espaguetis con pollo y verduras al wok",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Espaguetis",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Pechuga de pollo",
+                    "cantidad" : "150",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Zanahoria",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Guisante congelado",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Salsa de soja",
+                    "cantidad" : "20",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Caldo de pollo",
+                    "cantidad" : "200",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        },
+        {
+            "idPlato" : 55,
+            "nombrePlato":"Hamburguesa de ternera con mozzarella",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Carne picada de ternera",
+                    "cantidad" : "240",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Mozzarella fresca light",
+                    "cantidad" : "100",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : false
+        },
+        {
+            "idPlato" : 56,
+            "nombrePlato":"Wok de arroz basmati con verduras y gambas",
+            "ingredientes":[
+                {
+                    "nombreIngrediente" : "Arroz basmati crudo",
+                    "cantidad" : "140",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Cebolla",
+                    "cantidad" : "120",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Calabacín",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Zanahoria",
+                    "cantidad" : "160",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Guisante congelado",
+                    "cantidad" : "90",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Gamba o camarón",
+                    "cantidad" : "200",
+                    "unitario" : false
+                },
+                {
+                    "nombreIngrediente" : "Salsa de soja",
+                    "cantidad" : "20",
+                    "unitario" : false
+                }
+            ],
+            "isLunch" : true
+        }
+    ]
+}
