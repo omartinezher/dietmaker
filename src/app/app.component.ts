@@ -3,7 +3,9 @@ import dataPlatos from '../assets/platosdieta.json';
 import { Plato } from 'src/dishes/Plato';
 import { Ingrediente } from 'src/dishes/Ingrediente';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import jsPDF from "jspdf";
+import "jspdf-autotable";
+import html2canvas from 'html2canvas';
 // import * as mysql from 'mysql2';
 
 
@@ -22,6 +24,7 @@ export class AppComponent {
   platosArray: Plato[] = [];
   comidasArray: Plato[] = [];
   cenasArray: Plato[] = [];
+  arrayCompletoComidas: Plato[] = [];
 
   comidasRandomArray: number[] = [];
   cenasRandomArray: number[] = [];
@@ -125,30 +128,29 @@ export class AppComponent {
       } while (this.comidasArray.length + this.cenasArray.length != 14);
 
       this.ingredientesTotales.length = 0;
+      this.arrayCompletoComidas = [...this.comidasArray, ...this.cenasArray];
       this.countIngredients();
 
     }
   }
 
   countIngredients() {
-    const arrayCompletoComidas = [...this.comidasArray, ...this.cenasArray];
-
     if (this.ingredientesTotales.length === 0) {
-      for (let i = 0; i < arrayCompletoComidas.length; i++) {
-        for (let j = 0; j < arrayCompletoComidas[i].ingredientes.length; j++) {
-          const nombreIngrediente = arrayCompletoComidas[i].ingredientes[j].nombreIngrediente;
+      for (let i = 0; i < this.arrayCompletoComidas.length; i++) {
+        for (let j = 0; j < this.arrayCompletoComidas[i].ingredientes.length; j++) {
+          const nombreIngrediente = this.arrayCompletoComidas[i].ingredientes[j].nombreIngrediente;
           const ingredienteExistente = this.getIngredientByName(this.ingredientesTotales, nombreIngrediente);
 
           if (ingredienteExistente) {
             const auxIngrediente = JSON.parse(JSON.stringify(ingredienteExistente));
-            const auxCantidad = parseInt(auxIngrediente.cantidad) + parseInt(arrayCompletoComidas[i].ingredientes[j].cantidad);
+            const auxCantidad = parseInt(auxIngrediente.cantidad) + parseInt(this.arrayCompletoComidas[i].ingredientes[j].cantidad);
             auxIngrediente.cantidad = auxCantidad.toString();
 
             this.ingredientesTotales = this.ingredientesTotales.map((ingrediente) =>
               ingrediente.nombreIngrediente === nombreIngrediente ? auxIngrediente : ingrediente
             );
           } else {
-            this.ingredientesTotales.push(arrayCompletoComidas[i].ingredientes[j]);
+            this.ingredientesTotales.push(this.arrayCompletoComidas[i].ingredientes[j]);
           }
         }
 
@@ -165,6 +167,73 @@ export class AppComponent {
   }
 
 
+  downloadMenu(){
+
+    const doc = new jsPDF();
+    let numPages = 1;
+
+    // Definir las coordenadas iniciales para dibujar el contenido
+    let y = 20;
+    const pageHeight = doc.internal.pageSize.getHeight(); // Obtener la altura de la página
+
+    // Recorrer el array y agregar cada elemento al PDF
+    doc.text("INGREDIENTES" , 10 , 10);
+    doc.setFont('Arial', 'normal');
+    doc.setFontSize(12);
+
+    for(let i = 0 ; i < this.ingredientesTotales.length ; i++){
+      if( y + 10 > pageHeight - 10){
+
+        doc.addPage();
+        y = 20;
+
+      } else {
+
+        let x = 20;
+        doc.text(this.ingredientesTotales[i].nombreIngrediente , x , y);
+        x += 100;
+        doc.text(this.ingredientesTotales[i].cantidad + " gramos/unidades" , x , y);
+        y += 5;
+      }
+
+    }
+    y += 10;
+    doc.text("MENÚ SEMANAL" , 10 , y);
+    y += 10;
+    for(let i = 0 ; i < this.arrayCompletoComidas.length ; i++){
+      if( y + 10 > pageHeight - 10){
+
+        doc.addPage();
+        y = 20;
+
+      } else {
+
+        let x = 20;
+        doc.text(this.arrayCompletoComidas[i].nombrePlato , x , y);
+        x += 80;
+
+        for(let j = 0; j < this.arrayCompletoComidas[i].ingredientes.length ; j++){
+          if(y + 10 > pageHeight - 10){
+            doc.addPage();
+            y = 10;
+          }
+          else{
+            doc.text(this.arrayCompletoComidas[i].ingredientes[j].nombreIngrediente + " - " + this.arrayCompletoComidas[i].ingredientes[j].cantidad + " gramos / unidades" , x ,y+10);
+            y += 10;
+          }
+
+        }
+        y += 10;
+      }
+    }
+    // Guardar el archivo PDF
+    doc.save('MenuSemanal.pdf');
+
+  }
+
+  addFooter(){
+
+  }
 
 
   numColumns = 7; // Número de columnas que deseas mostrar
@@ -187,7 +256,6 @@ export class AppComponent {
       const ingredienteCompra = this.ingredientesTotales[i];
       const apiKey = '38154666-7565d61a70a128b350c90910c';
       const url = 'https://pixabay.com/api/?key='+apiKey+'&q='+ingredienteCompra.nombreIngrediente.split(" ")[0]+'&image_type=photo&lang=es&per_page=3&category=food';
-      console.log(url);
       this.http.get(url).subscribe((response: any) => {
         if (response.hits && response.hits.length > 0) {
           const firstPageURL = response.hits[0].pageURL;
@@ -195,7 +263,6 @@ export class AppComponent {
         }
       });
     }
-    console.log(this.urlsImagenes);
   }
 
   voltearCarta(index: number) {
